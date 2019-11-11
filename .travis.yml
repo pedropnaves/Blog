@@ -8,5 +8,4 @@ before_install:
   - npm install -g @lhci/cli@0.3.0-alpha.0 # install LHCI
 script:
   - npm run build # build your site
-  - npm test # run your normal tests
   - lhci autorun # run lighthouse CI against your static site
