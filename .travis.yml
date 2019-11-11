@@ -1,0 +1,11 @@
+# xenial (the default) or newer required
+language: node_js
+node_js:
+  - 10 # Node 10 LTS or later required
+addons:
+  chrome: stable # make sure to have Chrome available
+before_install:
+  - npm install -g @lhci/cli@0.3.0-alpha.0 # install LHCI
+script:
+  - npm run build # build your site
+  - lhci autorun --rc-overrides.upload.target=temporary-public-storage
