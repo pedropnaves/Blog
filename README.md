@@ -1,4 +1,4 @@
-# Tautorn Tech 
+# Tautorn Tech  
 
 [pt-BR]
 Criei este blog para falar de assuntos que eu gosto. Eu não vou falar só de Javascript, mas de tecnologia, dia-a-dia, Dota?! =o.
