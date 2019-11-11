@@ -8,4 +8,4 @@ before_install:
   - npm install -g @lhci/cli@0.3.0-alpha.0 # install LHCI
 script:
   - npm run build # build your site
-  - lhci autorun # run lighthouse CI against your static site
+  - lhci autorun --rc-overrides.upload.target=temporary-public-storage
